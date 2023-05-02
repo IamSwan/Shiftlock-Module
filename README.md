@@ -1,6 +1,6 @@
 # **Shiftlock Module**
 
-#### *This module add a manual shiftlock to the game, allowing more freedom in the use of it.*
+#### *This module adds a manual shiftlock to the game, allowing more freedom in the use of it.*
 
 * * *
 
