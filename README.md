@@ -1,6 +1,6 @@
 # **Shiftlock Module**
 
-#### *Please note that this is a free to use project don't expect a complex code*
+#### *This module add a manual shiftlock to the game, allowing more freedom in the use of it.*
 
 * * *
 
