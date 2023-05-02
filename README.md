@@ -1,9 +1,5 @@
 # **Shiftlock Module**
 
-#### *Please note that this is a free to use project don't expect a complex code*
-
-* * *
-
 ## ***List of functions***
 ---
     module:shiftlock(active) | return active
