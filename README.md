@@ -18,7 +18,7 @@ this function tells you if the shiftlock is enabled or not.
 ---
 ## Example code:
     local uis = game:GetService("UserInputService")
-    local shiftModule = require(game.ReplicatedStorage.ShiftModule)
+    local shiftModule = require(game.Players.LocalPlayer.Character:WaitForChild("ShiftlockModule")
 
     shiftModule:shiftlock(false)
     --[[ MAKE SURE TO DISABLE IT BY DEFAULT ]]--
