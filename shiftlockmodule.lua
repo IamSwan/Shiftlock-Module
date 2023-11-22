@@ -9,6 +9,9 @@ local hum = char:WaitForChild("Humanoid")
 local root = char:WaitForChild("HumanoidRootPart")
 local mouse = plr:GetMouse()
 
+local CUSTOM_SHIFTLOCK_CURSOR = "rbxassetid://12715007293" -- Leave empty for none
+
+
 function ShiftlockModule:isLocked()
 	if char:GetAttribute("Locked") == true then return false else return true end
 end
@@ -24,7 +27,7 @@ function ShiftlockModule:shiftlock(active)
 			char:SetAttribute("Locked", true)
 			local _, y = workspace.CurrentCamera.CFrame.Rotation:ToEulerAnglesYXZ()
 			root.CFrame = CFrame.new(root.Position) * CFrame.Angles(0,y,0)
-			mouse.Icon = "rbxassetid://12715007293"
+			mouse.Icon = CUSTOM_SHIFTLOCK_CURSOR
 		end)
 	else -- Disable it
 		hum.AutoRotate = true
