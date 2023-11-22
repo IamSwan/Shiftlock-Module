@@ -20,6 +20,8 @@ this function tells you if the shiftlock is enabled or not.
     local uis = game:GetService("UserInputService")
     local shiftModule = require(game.ReplicatedStorage.ShiftModule)
 
+    shiftModule:shiftlock(false)
+    --[[ MAKE SURE TO DISABLE IT BY DEFAULT ]]--
     uis.InputBegan:Connect(function(input, gpe)
         if input.KeyCode == Enum.KeyCode.F then
             if shiftModule:IsLocked() then
