@@ -9,8 +9,7 @@ local hum = char:WaitForChild("Humanoid")
 local root = char:WaitForChild("HumanoidRootPart")
 local mouse = plr:GetMouse()
 
-local CUSTOM_SHIFTLOCK_CURSOR = "rbxassetid://12715007293" -- Leave empty for none
-
+local CUSTOM_SHIFTLOCK_CURSOR = "rbxassetid://0" -- Leave empty for none
 
 function ShiftlockModule:isLocked()
 	if char:GetAttribute("Locked") == true then return false else return true end
